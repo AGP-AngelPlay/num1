@@ -1,0 +1,81 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 461px 461px 461px 461px;
+    grid-template-rows: 350px 200px 1000px 100px;
+    grid-template-areas:
+    'head head head head'
+    'en en en en'
+    'sec1 sec2 sec2 sec2'
+    'pie pie pie pie'
+}
+header{
+    background-color: blue;
+    grid-area: head;
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.enlaces{
+    grid-area: en;
+    background-color: cadetblue;
+    text-align: center;
+    word-spacing: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-family: cursive;
+
+}
+#s1{
+    background-color: rgb(100, 216, 237);
+    grid-area: sec1;
+    text-align: center;
+}
+#s2{
+    background-color: rgb(30, 177, 210);
+    grid-area: sec2;
+    text-align: center;
+}
+#s3{
+    background-color: rgb(30, 93, 210);
+    grid-area: sec3;
+    text-align: center;
+}
+#s4{
+    background-color: rgb(30, 33, 210);
+    grid-area: sec4;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    grid-area: pie;
+    text-align: center;
+    font-size: x-large;
+    font-family: cursive ;
+}
+.banner{
+    width: 1844px; 
+    height: 350px;
+}
+html{
+    background-color: black;
+}
+#img1{
+    height: 960px;
+    width: 411px;
+}
+iframe{
+    height: 500px;
+    width: 850px;
+}
+#img2{
+    height: 400px;
+    width: 600px;
+}
+
+
+  
